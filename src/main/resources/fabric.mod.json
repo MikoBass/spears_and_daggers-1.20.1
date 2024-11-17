@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "spears_and_daggers",
+	"version": "${version}",
+	"name": "Spears_and_Daggers",
+	"description": "This mod adds various weapons and items to the game",
+	"authors": [
+		"MikoBass"
+	],
+	"contact": {
+		"homepage": "https://bsky.app/profile/mikobass.bsky.social",
+		"sources": "https://github.com/MikoBass"
+	},
+	"license": "MIT",
+	"icon": "assets/spears_and_daggers/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.mikobass.spears_and_daggers.Spears_and_Daggers"
+		],
+		"client": [
+			"net.mikobass.spears_and_daggers.Spears_and_DaggersModClient"
+		],
+		"fabric-datagen": [
+			"net.mikobass.spears_and_daggers.Spears_and_DaggersDataGenerator"
+		]
+	},
+	"mixins": [
+		"spears_and_daggers.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
