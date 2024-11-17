@@ -1,4 +1,8 @@
 {
-  "item.spears_and_daggers.olympium_ingot": "Olympium Ingot"
+  "item.spears_and_daggers.olympium_ingot": "Olympium Ingot",
+
+  "block.spears_and_daggers.olympium_block": "Olympium Block",
+
+  "itemgroup.spears_and_daggers": "Spears and Daggers"
 
 }
