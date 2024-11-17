@@ -2,6 +2,7 @@ package net.mikobass.spears_and_daggers;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.mikobass.spears_and_daggers.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -13,7 +14,6 @@ public class Spears_and_Daggers implements ModInitializer {
 	@Override
 	public void onInitialize() {
 
-
-		LOGGER.info("Hello Fabric world!");
+		ModItems.registerModItems();
 	}
 }
