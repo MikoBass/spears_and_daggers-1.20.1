@@ -19,6 +19,7 @@ public class ModItemGroups {
                         entries.add(ModItems.OLYMPIUM_INGOT);
                         entries.add(ModBlocks.OLYMPIUM_BLOCK);
 
+
                     }).build());
 
     public static void  registerItemGroups(){
