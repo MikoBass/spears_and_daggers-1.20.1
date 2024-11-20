@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "spears_and_daggers:olympium_ingot"
+    }
+  },
+  "result": {
+    "item": "spears_and_daggers:olympium_block"
+  }
+}

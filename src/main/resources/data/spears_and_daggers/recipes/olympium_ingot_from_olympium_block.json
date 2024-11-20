@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "spears_and_daggers:olympium_block"
+    }
+  ],
+  "result": {
+    "item": "spears_and_daggers:olympium_ingot",
+    "count": 9
+  }
+}
