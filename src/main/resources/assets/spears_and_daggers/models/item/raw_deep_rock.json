@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "spears_and_daggers:item/raw_deep_rock"
+  }
+}

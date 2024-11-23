@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "spears_and_daggers:block/deepslate_deep_rock_ore"
+  }
+}

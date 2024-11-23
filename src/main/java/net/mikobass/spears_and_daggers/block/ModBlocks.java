@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.mikobass.spears_and_daggers.Spears_and_Daggers;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
+import net.minecraft.block.ExperienceDroppingBlock;
 import net.minecraft.block.MapColor;
 import net.minecraft.block.enums.Instrument;
 import net.minecraft.item.BlockItem;
@@ -12,6 +13,7 @@ import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.math.intprovider.UniformIntProvider;
 
 public class ModBlocks {
 
@@ -25,6 +27,11 @@ public class ModBlocks {
                     ^this is custom but in the end you can copy all and then modify just like i did up there*/
             )
     );
+    public static final Block DEEP_ROCK_ORE = registerBlock("deep_rock_ore",
+            new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.STONE).strength(3f), UniformIntProvider.create(5,9)));
+
+    public static final Block DEEPSLATE_DEEP_ROCK_ORE = registerBlock("deepslate_deep_rock_ore",
+            new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE).strength(4f), UniformIntProvider.create(5,9)));
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);

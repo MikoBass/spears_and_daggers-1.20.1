@@ -18,6 +18,9 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.OLYMPIUM_INGOT)).entries((displayContext, entries) -> {
                         entries.add(ModItems.OLYMPIUM_INGOT);
                         entries.add(ModBlocks.OLYMPIUM_BLOCK);
+                        entries.add(ModBlocks.DEEP_ROCK_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_DEEP_ROCK_ORE);
+                        entries.add(ModItems.RAW_DEEP_ROCK);
 
 
                     }).build());

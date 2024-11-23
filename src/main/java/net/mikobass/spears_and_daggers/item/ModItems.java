@@ -14,6 +14,7 @@ public class ModItems {
 
     public  static final Item OLYMPIUM_INGOT = registerItem("olympium_ingot", new Item(new FabricItemSettings()));
     //registers the existance of an item
+    public  static final Item RAW_DEEP_ROCK = registerItem("raw_deep_rock", new Item(new FabricItemSettings()));
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(OLYMPIUM_INGOT);
         //adds item to creative inventory 1/2
