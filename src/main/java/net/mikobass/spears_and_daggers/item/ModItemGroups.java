@@ -17,10 +17,13 @@ public class ModItemGroups {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.spears_and_daggers"))
                     .icon(() -> new ItemStack(ModItems.OLYMPIUM_INGOT)).entries((displayContext, entries) -> {
                         entries.add(ModItems.OLYMPIUM_INGOT);
+                        entries.add(ModItems.RAW_DEEP_ROCK);
+                        entries.add(ModItems.METAL_DETECTOR);
+
                         entries.add(ModBlocks.OLYMPIUM_BLOCK);
                         entries.add(ModBlocks.DEEP_ROCK_ORE);
                         entries.add(ModBlocks.DEEPSLATE_DEEP_ROCK_ORE);
-                        entries.add(ModItems.RAW_DEEP_ROCK);
+
 
 
                     }).build());

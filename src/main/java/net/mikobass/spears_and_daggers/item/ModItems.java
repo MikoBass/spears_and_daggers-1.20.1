@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.mikobass.spears_and_daggers.Spears_and_Daggers;
+import net.mikobass.spears_and_daggers.item.custom.MetalDetectorItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
@@ -15,6 +16,14 @@ public class ModItems {
     public  static final Item OLYMPIUM_INGOT = registerItem("olympium_ingot", new Item(new FabricItemSettings()));
     //registers the existance of an item
     public  static final Item RAW_DEEP_ROCK = registerItem("raw_deep_rock", new Item(new FabricItemSettings()));
+    public  static final Item METAL_DETECTOR = registerItem("metal_detector",
+            new MetalDetectorItem(new FabricItemSettings().maxDamage(64)));
+
+
+
+
+
+
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(OLYMPIUM_INGOT);
         //adds item to creative inventory 1/2
