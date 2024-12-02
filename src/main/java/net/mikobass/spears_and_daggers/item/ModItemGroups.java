@@ -23,7 +23,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.OLYMPIUM_BLOCK);
                         entries.add(ModBlocks.DEEP_ROCK_ORE);
                         entries.add(ModBlocks.DEEPSLATE_DEEP_ROCK_ORE);
-
+                        entries.add(ModBlocks.SOUND_BLOCK);
 
 
                     }).build());

@@ -3,6 +3,7 @@ package net.mikobass.spears_and_daggers.block;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.mikobass.spears_and_daggers.Spears_and_Daggers;
+import net.mikobass.spears_and_daggers.block.custom.SoundBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.ExperienceDroppingBlock;
@@ -32,6 +33,14 @@ public class ModBlocks {
 
     public static final Block DEEPSLATE_DEEP_ROCK_ORE = registerBlock("deepslate_deep_rock_ore",
             new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE).strength(4f), UniformIntProvider.create(5,9)));
+
+    public static final Block SOUND_BLOCK = registerBlock("sound_block",
+            new SoundBlock(FabricBlockSettings.copyOf(Blocks.NOTE_BLOCK)));
+
+
+
+
+
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
