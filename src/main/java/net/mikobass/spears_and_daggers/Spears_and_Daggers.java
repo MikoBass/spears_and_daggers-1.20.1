@@ -2,6 +2,7 @@ package net.mikobass.spears_and_daggers;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.mikobass.spears_and_daggers.block.ModBlocks;
 import net.mikobass.spears_and_daggers.item.ModItemGroups;
 import net.mikobass.spears_and_daggers.item.ModItems;
@@ -19,5 +20,8 @@ public class Spears_and_Daggers implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 		ModItemGroups.registerItemGroups();
+
+		FuelRegistry.INSTANCE.add(ModItems.NOXIUM_CRYSTAL, 2400);
+		//put this in a method in the future
 	}
 }

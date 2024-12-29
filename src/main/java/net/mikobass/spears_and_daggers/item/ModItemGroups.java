@@ -19,6 +19,8 @@ public class ModItemGroups {
                         entries.add(ModItems.OLYMPIUM_INGOT);
                         entries.add(ModItems.RAW_DEEP_ROCK);
                         entries.add(ModItems.METAL_DETECTOR);
+                        entries.add(ModItems.NOXBERRIES);
+                        entries.add(ModItems.NOXIUM_CRYSTAL);
 
                         entries.add(ModBlocks.OLYMPIUM_BLOCK);
                         entries.add(ModBlocks.DEEP_ROCK_ORE);

@@ -18,9 +18,10 @@ public class ModItems {
     public  static final Item RAW_DEEP_ROCK = registerItem("raw_deep_rock", new Item(new FabricItemSettings()));
     public  static final Item METAL_DETECTOR = registerItem("metal_detector",
             new MetalDetectorItem(new FabricItemSettings().maxDamage(64)));
-
-
-
+    public  static final Item NOXBERRIES = registerItem("noxberries",
+            new Item(new FabricItemSettings().food(ModFoodComponents.NOXBERRIES)));
+    public  static final Item NOXIUM_CRYSTAL = registerItem("noxium_crystal",
+            new Item(new FabricItemSettings()));
 
 
 
